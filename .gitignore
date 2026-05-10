@@ -1,0 +1,35 @@
+# Папки сборки (генерируются CMake)
+build/
+build-release/
+
+# Бинарные файлы и промежуточные артефакты
+*.exe
+*.dll
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Пользовательские настройки IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Файлы CMake (кеш и временные)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+
+# ImGui (состояние окна)
+imgui.ini
+
+# Сохранённая карта (бинарный файл, может быть большим)
+map.bin
+
+# Архивы и папки релизов
+release/*.zip
+release/*.7z
